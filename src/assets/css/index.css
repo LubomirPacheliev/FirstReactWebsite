@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    font-family: "Inconsolata";
+}
+
+p, a, label {
+    font-family: "Monsterrat";
+}
+
+#root {
+    background-image: url("../images/asteroids_background.jpg");
+    height: 100vh;
+}
+
+.navbar {
+    font-size: 30px;
+    font-weight: 800px;
+    display: flex;
+    border-bottom: 2px solid rgb(204, 162, 233);
+    background-color: rgb(3, 4, 34);
+    margin: 0px auto;
+    padding: 5px;
+    
+}
+
+.navbar h2 {
+    position: relative;
+    padding: 5px;
+    left: 650px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 30px;
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 5px;
+    left: 700px;
+    top: 7px;
+}
+
+.navbar a:hover {
+    border: 1px solid rgb(204, 162, 233);
+    cursor: pointer;
+}
+
+.offers {
+    position: relative;
+    max-width: 680px;
+    left: 560px;
+    top: 0px;
+    font-weight: 300px;
+    font-size: 20px;
+    background-color: rgba(3, 5, 44, 0.493);
+    border-left: 2px solid rgb(204, 162, 233);
+    border-right: 2px solid rgb(204, 162, 233); 
+    height: 92.7vh;
+}
+
+.offers ul {
+    list-style: none;
+}
+
+.offers li {
+    margin-top: 10px;
+}
+
+.offers li:hover {
+    cursor: default;
+    background-color: rgb(3, 4, 34);
+}
+
+.offers label {
+    font-size: 40px;
+    font-weight: 600px;
+    position: relative;
+    left: 280px;
+    top: 0px;
+}
+
+.offers button {
+    position: relative;
+    top: -30px;
+    left: 500px;
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    font: bold 20px "Monsterrat";
+    background-color: rgb(3, 4, 34);
+    border: 2px solid rgb(204, 162, 233);
+}
+
+.offers button:hover {
+    cursor: pointer;
+}
+
+.makeOffer {
+    font: bold 20px "Monsterrat";
+    position: relative;
+    max-width: 200px;
+    left: 800px;
+    top: 250px;
+    background-color: rgb(3, 4, 34);
+    padding: 10px 20px;
+}
+
+.makeOffer input, .makeOffer button {
+    color: black;
+}
+
+.makeOffer input:last-of-type {
+    height: 70px;
+}
+
+.makeOffer button {
+    position: relative;
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    left: 40px;
+}
+
+.auth {
+    position: relative;
+    max-width: 200px;
+    left: 800px;
+    top: 250px;
+    background-color: rgb(40, 9, 90);
+    padding: 30px 60px;
+}
+
+.auth input {
+    margin: 10px 0px;
+    height: 40px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+}
+
+.auth label {
+    font: bold 30px "Monsterrat";
+}
+
+.auth button {
+    position: relative;
+    color: black;
+    font-family: "Monsterrat";
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    left: 60px;
+    top: 10px;
+}
+
+.auth a {
+    position: relative;
+    top: 25px;
+    left: -30px;
+    display: block;
+    text-decoration: none;
+}
+
+.auth a:hover {
+    text-decoration: underline;
+}
